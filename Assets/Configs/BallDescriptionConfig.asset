@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a406c9f8b6ef3d94a9db2da734643a76, type: 3}
+  m_Name: BallDescriptionConfig
+  m_EditorClassIdentifier: 
+  _ballDescriptionConfig:
+  - _ballType: 0
+    _ballSprite: {fileID: 21300000, guid: 2ef8e29db40b8d6448edd7e0ef751526, type: 3}
+    _ballDescription: Adds points based on the block's multiplier. A standard scoring
+      ball(100 points).
+  - _ballType: 1
+    _ballSprite: {fileID: 21300000, guid: b1634b5aaa145ed4b8648fef355aebb2, type: 3}
+    _ballDescription: Grants double the score compared to a normal ball.
+  - _ballType: 2
+    _ballSprite: {fileID: 21300000, guid: fbebd8420001ee34c845f0bce89d8d3e, type: 3}
+    _ballDescription: "Has a 10% chance to give 5\xD7 the normal score; otherwise,
+      behaves like a regular ball."
+  - _ballType: 3
+    _ballSprite: {fileID: 21300000, guid: 886d63cd782b31648bc5e530fe445fcb, type: 3}
+    _ballDescription: Always adds a fixed bonus of 500 points on top of the base
+      value.
+  - _ballType: 4
+    _ballSprite: {fileID: 21300000, guid: f736375095c8e9040b66148887bcddf1, type: 3}
+    _ballDescription: "Scores normally, then permanently sets the block's multiplier
+      to \xD74."
+  - _ballType: 5
+    _ballSprite: {fileID: 21300000, guid: ce5f8d7e88b2c2b4ab7fe7bf4e80f937, type: 3}
+    _ballDescription: If the multiplier is 2x or less, this ball will spawn another
+      ball of the same type!

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "525831756147",
+    "project_id": "plunka-drop",
+    "storage_bucket": "plunka-drop.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525831756147:android:9cb6aceb65f8d8d7394d06",
+        "android_client_info": {
+          "package_name": "com.castif"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6hUlXyrpjqLHNBjMK-uLETCktd8eGBvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

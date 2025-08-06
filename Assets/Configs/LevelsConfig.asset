@@ -1,0 +1,445 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdeb2c00defe6d04bbba92c7cb4ddd21, type: 3}
+  m_Name: LevelsConfig
+  m_EditorClassIdentifier: 
+  _levelData:
+  - _levelId: 1
+    _minScoreForWin: 3500
+    _scoreForTwoStars: 4500
+    _scoreForThreeStars: 5500
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 15
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 3
+  - _levelId: 2
+    _minScoreForWin: 4500
+    _scoreForTwoStars: 5500
+    _scoreForThreeStars: 6500
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 16
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 4
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 1
+  - _levelId: 3
+    _minScoreForWin: 5500
+    _scoreForTwoStars: 6500
+    _scoreForThreeStars: 7500
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 14
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 5
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 2
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 1
+  - _levelId: 4
+    _minScoreForWin: 6500
+    _scoreForTwoStars: 7500
+    _scoreForThreeStars: 8500
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 13
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 5
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 3
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 2
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 1
+  - _levelId: 5
+    _minScoreForWin: 8000
+    _scoreForTwoStars: 9500
+    _scoreForThreeStars: 11000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 12
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 6
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 4
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 2
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 1
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 1
+  - _levelId: 6
+    _minScoreForWin: 9500
+    _scoreForTwoStars: 11000
+    _scoreForThreeStars: 12500
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 12
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 6
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 4
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 2
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 1
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 1
+  - _levelId: 7
+    _minScoreForWin: 11000
+    _scoreForTwoStars: 12500
+    _scoreForThreeStars: 14000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 12
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 6
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 4
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 3
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 2
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 2
+  - _levelId: 8
+    _minScoreForWin: 13000
+    _scoreForTwoStars: 15000
+    _scoreForThreeStars: 17000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 11
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 6
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 5
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 3
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 3
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 2
+  - _levelId: 9
+    _minScoreForWin: 15000
+    _scoreForTwoStars: 17000
+    _scoreForThreeStars: 19000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 10
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 6
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 6
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 4
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 3
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 3
+  - _levelId: 10
+    _minScoreForWin: 17500
+    _scoreForTwoStars: 20000
+    _scoreForThreeStars: 22500
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 9
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 5
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 7
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 5
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 4
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 3
+  - _levelId: 11
+    _minScoreForWin: 20000
+    _scoreForTwoStars: 22500
+    _scoreForThreeStars: 25000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 9
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 5
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 7
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 5
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 4
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 4
+  - _levelId: 12
+    _minScoreForWin: 23000
+    _scoreForTwoStars: 26000
+    _scoreForThreeStars: 29000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 8
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 5
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 8
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 5
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 5
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 4
+  - _levelId: 13
+    _minScoreForWin: 26000
+    _scoreForTwoStars: 29000
+    _scoreForThreeStars: 32000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 8
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 4
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 8
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 5
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 5
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 5
+  - _levelId: 14
+    _minScoreForWin: 29000
+    _scoreForTwoStars: 32000
+    _scoreForThreeStars: 35000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 7
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 4
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 8
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 6
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 5
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 5
+  - _levelId: 15
+    _minScoreForWin: 32000
+    _scoreForTwoStars: 35000
+    _scoreForThreeStars: 38000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 7
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 4
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 8
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 6
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 6
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 5
+  - _levelId: 16
+    _minScoreForWin: 32000
+    _scoreForTwoStars: 35000
+    _scoreForThreeStars: 38000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 7
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 4
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 8
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 6
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 6
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 5
+  - _levelId: 17
+    _minScoreForWin: 32000
+    _scoreForTwoStars: 35000
+    _scoreForThreeStars: 38000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 7
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 4
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 8
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 6
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 6
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 5
+  - _levelId: 18
+    _minScoreForWin: 32000
+    _scoreForTwoStars: 35000
+    _scoreForThreeStars: 38000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 7
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 4
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 8
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 6
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 6
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 5
+  - _levelId: 19
+    _minScoreForWin: 32000
+    _scoreForTwoStars: 35000
+    _scoreForThreeStars: 38000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 7
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 4
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 8
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 6
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 6
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 5
+  - _levelId: 20
+    _minScoreForWin: 32000
+    _scoreForTwoStars: 35000
+    _scoreForThreeStars: 38000
+    _ballData:
+    - _ballType: 0
+      _ballPrefab: {fileID: 2843238900352462786, guid: 79f7dc8d4f3f6534cb61cf6ea780ff5b, type: 3}
+      _ballsCount: 7
+    - _ballType: 1
+      _ballPrefab: {fileID: 5381690495045557295, guid: 42840ac9c9a81004babec50a0660faa9, type: 3}
+      _ballsCount: 4
+    - _ballType: 2
+      _ballPrefab: {fileID: -8402820323307569173, guid: 4d091d24ad833aa459d8d37b6e68f9d8, type: 3}
+      _ballsCount: 8
+    - _ballType: 3
+      _ballPrefab: {fileID: -4032428485004890307, guid: 4ea1b9a228a04794698ad656822416d8, type: 3}
+      _ballsCount: 6
+    - _ballType: 4
+      _ballPrefab: {fileID: 5361518215166858050, guid: 14f6b4fbd5414b243aa8ff25ea147701, type: 3}
+      _ballsCount: 6
+    - _ballType: 5
+      _ballPrefab: {fileID: -7183440127948129913, guid: 2b19d051172766d47948373feb6c26e5, type: 3}
+      _ballsCount: 5
